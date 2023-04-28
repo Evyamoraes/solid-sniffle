@@ -43,7 +43,7 @@ public class atividadearray4 {
 			}
 			}
 			System.out.print("A soma dos valores da matriz é: "+soma);
-			System.out.print("\nDiagonal principal é: "+dp);
+			System.out.print("\nA soma da diagonal principal é: "+dp);
 		}
 	}
 }
