@@ -39,7 +39,6 @@ public class exercicio2ifelse {
 					System.out.print("A ordem crescente é "+valor2+", "+valor1+", "+valor3);
 				}
 	          
-				}
+		}
 	}
-
 }
