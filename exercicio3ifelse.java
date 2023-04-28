@@ -25,8 +25,7 @@ public class exercicio3ifelse {
 			}
 			else{
 				System.out.print("Não se aplica.");
-				}
 			}
+		}
 	}
-
 }
