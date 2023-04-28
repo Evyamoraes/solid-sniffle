@@ -9,7 +9,7 @@ public class exercicio3ifelse {
 		// 10-14 infantil; 15-17 juvenil; 18-25 adulto.
 		Scanner input = new Scanner(System.in); {
 			
-			int idade, infantil, juvenil, adulto;
+			int idade;
 			
 			System.out.print("Digite a idade: ");
 			idade = input.nextInt();
