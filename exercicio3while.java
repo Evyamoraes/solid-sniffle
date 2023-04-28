@@ -10,31 +10,26 @@ public class exercicio3while {
 		// valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve parar 
 		// quando o usuário fornecer um valor negativo.
 		
-		Scanner input = new Scanner(System.in);{
+			Scanner input = new Scanner(System.in);{
 			
 			int cont = 0, num = 0, soma = 0;
 	        
-			while (true)
-	        {
+			while (true){
 	        	System.out.println("Digite um numero: ");
 	        	num = input.nextInt();
 	        	
-	            if (num >= 0)
-	            {
-	                soma = soma + num;
-	                cont++;
-	            }
-	            else
-	            {
-	                break;
-	            }
-	        }
-	        System.out.println("A soma é: " + soma);
-	        System.out.println("A quantidade de numeros digitados é: " + cont);
-	        System.out.println("A media é: " + soma / cont);
-
-	    }
+	          	  if (num >= 0){
+	                	soma = soma + num;
+	                	cont++;
+	            	  }
+	            	  else{
+	               	  break;
+	            	  }
+	        	  }
+	       		 System.out.println("A soma é: " + soma);
+	                 System.out.println("A quantidade de numeros digitados é: " + cont);
+	                 System.out.println("A media é: " + soma / cont);
+	   	 }
 	}
-
 }
 
