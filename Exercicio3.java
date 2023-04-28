@@ -33,7 +33,6 @@ public class Exercicio3 {
 			System.out.println("Sua média final é:" + media);
 
 			input.close();
+		}
 	}
-	}
-
 }
