@@ -28,6 +28,7 @@ public class Atvidade_Array1 {
 			System.out.println("");
 			}
 		
-		 }	}
+		 }	
+	}
 }
 
