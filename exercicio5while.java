@@ -15,23 +15,21 @@ public class exercicio5while {
 		System.out.println(+numero);
 		System.out.println("\n");
 	
-				do{
+			do{
 
-					if (numero >= 300 && numero <= 400) {
-						numero += 3;
-						System.out.println(numero);
-						System.out.println(" somando de 3 em 3\n");
+				if (numero >= 300 && numero <= 400) {
+					numero += 3;
+					System.out.println(numero);
+					System.out.println(" somando de 3 em 3\n");
 					}
-					else{
-						numero +=5;
-						System.out.println(numero);
-						System.out.println(" somando de 5 em 5\n");
+				else{
+					numero +=5;
+					System.out.println(numero);
+					System.out.println(" somando de 5 em 5\n");
 					}
-					
 				}
 					while (numero <= 456);
 			}
+		}
 	}
-
-}
 
