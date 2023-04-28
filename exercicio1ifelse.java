@@ -30,8 +30,7 @@ public class exercicio1ifelse {
 				else{
 					System.out.print("O maior é: "+valor3);
 				}
-	          
-				System.out.print("\nEntre: "+valor1+", "+valor2+", "+valor3);
+	          		System.out.print("\nEntre: "+valor1+", "+valor2+", "+valor3);
 		}
 	}
 }
