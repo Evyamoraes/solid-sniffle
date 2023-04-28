@@ -25,13 +25,11 @@ public class exercicio_salario {
 				
 				if(maiorSalario < salario){
 				       maiorSalario += salario;
-				       
-				}maiorSalario = salario;
-				
+				}
+				       maiorSalario = salario;
 				if(salario <= 100){
 				       contSalario++;
 				}
-				
 				totalSalario += salario;
 				mediaSalario = totalSalario / 3;
 				percentualSalario = (contSalario / 3) * 100;
@@ -48,10 +46,10 @@ public class exercicio_salario {
 				System.out.println("A percentagem das pessoas com salarios ate R$ 100,00 é "+percentualSalario+ "%");
 				
 
-}
+				}
 			}
+		}
 	}
-}
 	
 
 
