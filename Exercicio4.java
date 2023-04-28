@@ -34,6 +34,6 @@ public class Exercicio4 {
 			System.out.println("A tal distancia é:" + d);
 		
 			input.close();
-	}
+		}
 	}
 }
