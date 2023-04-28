@@ -9,21 +9,20 @@ public class exercicio6dowhile {
 		// Ex.: o usuário entra 7, o programa vai mostrar 28, pois  1+2+3+4+5+6+7=28.
 		
 		Scanner input = new Scanner (System.in);{
-			
-		}
+		
 		int numero=0, soma=0;
 			
 		System.out.println("Digite um número: ");
-			numero = input.nextInt();
+		numero = input.nextInt();
 					
-				do{
-					soma= soma + numero;
-					numero = numero - 1;
-				}
-				while(numero>=0);{
-					System.out.println("\nA soma é: " +soma);
+			do{
+				soma= soma + numero;
+				numero = numero - 1;
+			}
+			while(numero>=0);{
+				System.out.println("\nA soma é: " +soma);
 					
+			}
+		}
 	}
-
-}
 }
