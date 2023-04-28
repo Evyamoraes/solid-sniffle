@@ -27,7 +27,6 @@ public class Atvidade_Array1 {
 			System.out.println("O maior valor é: "+maior);
 			System.out.println("");
 			}
-		
 		 }	
 	}
 }
