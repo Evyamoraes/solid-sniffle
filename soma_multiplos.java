@@ -17,11 +17,11 @@ public class soma_multiplos {
 					soma = soma + i;
 					System.out.println(i);
 					}
-			}
+				}	
 
-		System.out.println("A soma de todos o números ímpares múltiplos de três entre 1 até 500 é: " +soma);
-		input.close();
+			System.out.println("A soma de todos o números ímpares múltiplos de três entre 1 até 500 é: " +soma);
+			input.close();
 	
-	}
+		}
 	}
 }
