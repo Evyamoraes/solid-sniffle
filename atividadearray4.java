@@ -22,7 +22,7 @@ public class atividadearray4 {
 					System.out.print("\nDigite os valores da matriz 3x3: ");
 					mat[i][j] = input.nextInt();
 			}
-		}
+				}
 			for(int i=0; i<LIN; i++) {
 				for(int j=0; j<COL; j++) {
 					System.out.print("["+mat[i][j]+"]");
@@ -32,7 +32,7 @@ public class atividadearray4 {
 			for (int[] linha : mat) {
 			    for (int valor : linha) {
 			        soma += valor;
-								}
+			}
 				}
 			
 			for(int i=0; i<LIN; i++) {
@@ -40,8 +40,8 @@ public class atividadearray4 {
 					if(i==j) {
 						dp = dp +mat[i][j];
 			}
-			}
-			}
+				}
+					}
 			System.out.print("A soma dos valores da matriz é: "+soma);
 			System.out.print("\nA soma da diagonal principal é: "+dp);
 		}
