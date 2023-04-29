@@ -2,8 +2,6 @@ package ClasseCliente;
 
 public class Cliente {
 	
-	//atributos
-	
 	public String nome;
 	private String cpf;
 	private String telefone;
@@ -59,7 +57,7 @@ public class Cliente {
 				this.telefone = telefone;
 				this.email = email;
 				
-		}
+	}
 }
 
 		
